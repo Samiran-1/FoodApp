@@ -1,0 +1,21 @@
+.naContainer{
+    /*background-color: red;*/
+    display: flex;
+}
+.ltContainer{
+    background-color: black;
+    color: #fff;
+    width: 30%;
+} 
+.rtContainer{
+    background-color: black;
+    color: #fff;
+    width: 70%;
+    display:flex;
+
+    a{
+        color: white;
+        text-decoration: none;
+        margin: 10px auto;
+    }
+}

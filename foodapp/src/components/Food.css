@@ -1,0 +1,23 @@
+.fContainer{
+    /*background-color: red;*/
+    display: flex;
+}
+.lContainer{
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    margin-left: 30px;
+   margin-top: 10px;
+    width: 26%;
+    display:flex;
+
+    a{
+        color: white;
+        text-decoration: none;
+        margin: 20px auto;
+    }
+} 
+.rContainer{
+   
+    width: 70%;
+}

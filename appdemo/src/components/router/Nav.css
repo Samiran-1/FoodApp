@@ -1,0 +1,21 @@
+.navContainer{
+    /*background-color: red;*/
+    display: flex;
+}
+.leftContainer{
+    background-color: black;
+    color: #fff;
+    width: 30%;
+} 
+.rightContainer{
+    background-color: black;
+    color: #fff;
+    width: 70%;
+    display:flex;
+
+    a{
+        color: white;
+        text-decoration: none;
+        margin: 10px auto;
+    }
+}

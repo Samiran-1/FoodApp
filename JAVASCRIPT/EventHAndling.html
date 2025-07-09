@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        const changeToH2=()=>{
+            var h2Ref=document.getElementById("domh");
+            h2Ref.innerText="DOM MANIPULATION BY JS";
+        }
+        const changeToP=()=>{
+            var pRef=document.getElementById("domp");
+            pRef.innerText="WELCOME TO JS EVENT HANDLING";
+        }
+        
+    </script>
+</head>
+<body>
+    <div>
+        <h2 id="domh">DOM</h2>
+        <p id="domp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, harum cupiditate. Pariatur est exercitationem dignissimos!</p>
+        <button onclick="changeToH2()">CHANGE-H2</button>&nbsp;&nbsp;
+        <button onclick="changeToP()">CHANGE-P</button>
+    </div>
+</body>
+</html>
